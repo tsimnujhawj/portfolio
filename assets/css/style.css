@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.header-box {
+    text-align: center;
+    border: 1px solid black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.table {
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.header-box li {
+    padding-right: 50px;
+}
