@@ -22,12 +22,16 @@ body {
     text-align: center;
 }
 
-ul .navigation {
-    list-style-type: none;
-    display: inline-flex;
+.nav-container {
+
+}
+
+.navigation {
+  
 }
 
 li a {
+    list-style-type: none;
     color: #eef0eb;
     padding: 5px 15px 5px 15px;
     border-radius: 5px;
