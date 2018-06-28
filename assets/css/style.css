@@ -1,14 +1,22 @@
 * {
     box-sizing: border-box;
+    font-family: 'Rambla', sans-serif;
+
 }
 
 body {
     margin: 0 auto;
+    background-image: url("../images/seigaiha.png")
 }
 
 .header-box {
+    background-color: #5c80bc;
+}
+
+.header-box h1 {
     text-align: center;
-    border: 1px solid black;
+    color: #e9edde;
+    font-size: 50px;
 }
 
 ul {
@@ -16,10 +24,64 @@ ul {
 }
 
 .table {
-    display: inline-flex;
-    flex-direction: row;
+    display: flex;
 }
 
 .header-box li {
-    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    color: #e7e247;
+    font-weight: bold;
 }
+
+a {
+    color: #e7e247;
+    border: 1px solid #e9edde;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    background-color: #4d5061;
+}
+
+a:hover {
+    color: rgba(231, 226, 71, 0.5);
+    text-decoration: none;
+}
+
+@-webkit-keyframes hvr-pulse {
+    25% {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  @keyframes hvr-pulse {
+    25% {
+      -webkit-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+    75% {
+      -webkit-transform: scale(0.9);
+      transform: scale(0.9);
+    }
+  }
+  .hvr-pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  }
+  .hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+    -webkit-animation-name: hvr-pulse;
+    animation-name: hvr-pulse;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+  }
