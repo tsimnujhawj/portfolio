@@ -5,46 +5,38 @@
 }
 
 body {
-    margin: 0 auto;
     background-image: url("../images/seigaiha.png")
 }
 
 .header-box {
-    background-color: #5c80bc;
-}
-
-.header-box h1 {
-    text-align: center;
-    color: #e9edde;
-    font-size: 50px;
-}
-
-ul {
-    list-style-type: none;
-}
-
-.table {
-    display: flex;
-}
-
-.header-box li {
-    margin-left: auto;
-    margin-right: auto;
-    padding: 15px;
-    color: #e7e247;
+    background-color: #153243;
+    border-bottom: #284b63 10px solid;
+    border-top: #284b63 10px solid;
+    color: #eef0eb;
     font-weight: bold;
 }
 
-a {
-    color: #e7e247;
-    border: 1px solid #e9edde;
-    padding: 5px 10px 5px 10px;
-    border-radius: 10px;
-    background-color: #4d5061;
+.header-box h1 {
+    color: #eef0eb;
+    font-size: 50px;
+    text-align: center;
+}
+
+ul .navigation {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+li a {
+    color: #eef0eb;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    background-color: #284b63;
+    margin: 5px;
 }
 
 a:hover {
-    color: rgba(231, 226, 71, 0.5);
+    color: rgba(238, 240, 235, 0.6);
     text-decoration: none;
 }
 
@@ -85,3 +77,4 @@ a:hover {
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
   }
+  
