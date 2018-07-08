@@ -39,6 +39,9 @@ body, html {
 .header-box h1 {
     color: rgba(26, 40, 40, 0.75);
     font-size: 50px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .nav {
