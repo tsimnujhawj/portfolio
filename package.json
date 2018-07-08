@@ -1,0 +1,21 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "www.tsimnujhawj.com",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsimnujhawj/portfolio.git"
+  },
+  "author": "Tsimnuj Hawj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tsimnujhawj/portfolio/issues"
+  },
+  "homepage": "https://github.com/tsimnujhawj/portfolio#readme"
+}

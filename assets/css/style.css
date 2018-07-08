@@ -4,22 +4,41 @@
 
 }
 
-body {
-    background-image: url("../images/seigaiha.png")
+body, html {
+ height: 100%;
+ margin: 0 auto;
+}
+
+#small {
+    font-size: 10px;
+}
+
+#bg {
+    background-image: url("../images/bull.jpg");
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+#main-stuff {
+    background-image: url("../images/barcelona.jpg");
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
 }
 
 .header-box {
-    background-color: #153243;
-    border-bottom: #284b63 5px solid;
-    border-top: #284b63 5px solid;
-    color: #eef0eb;
-    font-weight: bold;
+    position: fixed;
+    top: 0;
 }
 
 .header-box h1 {
-    color: #eef0eb;
-    font-size: 60px;
-    margin: 5px auto;
+    color: rgba(26, 40, 40, 0.75);
+    font-size: 50px;
 }
 
 .nav {
@@ -28,15 +47,14 @@ body {
 
 li a {
     list-style-type: none;
-    color: #eef0eb;
+    color: rgba(26, 40, 40, 1);
     padding: 5px 15px 5px 15px;
-    border-radius: 5px;
-    background-color: #284b63;
-    margin: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
 }
 
 a:hover {
-    color: rgba(238, 240, 235, 0.6);
+    color: rgba(26, 40, 40, 0.5);
     text-decoration: none;
 }
 
@@ -57,7 +75,7 @@ a:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: #B9A34B;
   height: 4px;
   -webkit-transform: translateY(4px);
   transform: translateY(4px);
