@@ -10,7 +10,8 @@ body, html {
 }
 
 #small {
-    font-size: 10px;
+    font-size: 25px;
+    color: #fff;
 }
 
 #bg {
@@ -87,16 +88,25 @@ body, html {
     margin-top: 35px;
 }
 
-#nav-group {
-    margin: 0 auto;
-}
+/* #nav-group {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+} */
 
-.name-text {
-    
+.just-r {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .content-container {
+    max-width: 100%;
     width: 960px;
+    margin: 0 auto;
+}
+
+#ham-btn {
     margin: 0 auto;
 }
 
