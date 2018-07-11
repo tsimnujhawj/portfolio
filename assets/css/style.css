@@ -185,7 +185,7 @@ a:hover {
     content: " ";
     top: 0;
     left:  0;
-    width: 109%;
+    width: 100%;
     height:  100%;
     background: rgba(31,44,108,.15);
 }
@@ -197,7 +197,7 @@ a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 109%;
+    width: 100%;
     height: 80px;
     background: #284b63;
 }
