@@ -1,10 +1,7 @@
 $(document).ready(function() { // DOCUMENT READY OPENING
 
 // SMOOTH SCROLLING
-  
     let scrollLink = $(".scroll");
-    
-    // Smooth scrolling
     scrollLink.click(function(e) {
       e.preventDefault();
       $("body, html").animate({
@@ -18,7 +15,7 @@ $(document).ready(function() { // DOCUMENT READY OPENING
       
       scrollLink.each(function() {
         
-        let sectionOffset = $(this.hash).offset().top;
+        let sectionOffset = $(this.hash).offset();
         
         if (sectionOffset <= scrollbarLocation) {
           $(this).parent().addClass("active");

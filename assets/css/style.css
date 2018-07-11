@@ -18,21 +18,18 @@ body, html {
 #bg {
     background: url("../images/bull.jpg");
         height: 890px;
-        max-width: 100%;
+        width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         display: flex;
         align-items: center;
-        justify-content: center;
         position:relative;
 }
 
 #bg:before{
     position: absolute;
     content: " ";
-    top: 0;
-    left: 0;
     background: rgba(31,44,108,.25);
     height: 100%;
     width: 100%;
