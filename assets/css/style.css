@@ -16,11 +16,14 @@ body, html {
 #bg {
     background: url("../images/bull.jpg");
         height: 890px;
-        max-height: 100%;
         max-width: 100%;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position:relative;
 }
 
 #bg:before{
@@ -29,8 +32,8 @@ body, html {
     top: 0;
     left: 0;
     background: rgba(31,44,108,.25);
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
 
 #main-stuff {
@@ -42,9 +45,6 @@ body, html {
         background-size: cover;
 }
 
-.header-text {
-    margin-top: 100px;
-}
 
 /*.header-text-area*/
 .header-text h2 {
@@ -87,26 +87,13 @@ body, html {
     margin-top: 35px;
 }
 
-.header-box {
-    position: fixed;
-    top: 0;
-}
-
-.header-box h1 {
+.name-text h1 {
     color: rgba(26, 40, 40, 0.75);
-    font-size: 40px;
-    width: 50px;
+    font-size: 30px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
-    text-transform: capitalize;
-}
-
-#head-container {
-    text-align: justify;
-}
-
-#ham-btn {
-    margin: 0 auto;
+    text-transform: uppercase;
 }
 
 li a {
@@ -116,13 +103,13 @@ li a {
     margin-right: 10px;
     margin-top: 5px;
     font-size: 18px;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 a:hover {
     color: rgba(26, 40, 40, 0.5);
     text-decoration: none;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 /* Underline Reveal */
