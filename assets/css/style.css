@@ -10,8 +10,9 @@ body, html {
 }
 
 #small {
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
+    font-weight: 300;
 }
 
 #bg {
@@ -88,12 +89,6 @@ body, html {
     margin-top: 35px;
 }
 
-/* #nav-group {
-    margin: 0;
-    display: flex;
-    justify-content: flex-end;
-} */
-
 .just-r {
     margin: 0;
     display: flex;
@@ -111,7 +106,7 @@ body, html {
 }
 
 #name-text h1 {
-    color: rgba(40, 75, 99, 0.75);
+    color: rgb(40, 75, 99, .75);
     font-size: 30px;
     text-transform: uppercase;
     font-weight: 600;
