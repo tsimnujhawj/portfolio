@@ -113,6 +113,10 @@ body, html {
     width: 100%;
 }
 
+#navigation-box {
+    box-shadow: 0 5px 20px rgba(40, 75, 99, .75);
+}
+
 li a {
     list-style-type: none;
     color: rgba(26, 40, 40, 1);
