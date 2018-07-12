@@ -325,8 +325,8 @@ a:hover {
     height:50px;
     text-transform:capitalize;
     margin-top: 3px;
-    background: #b636ff;
-    border: 1px solid #b636ff;
+    background: rgba(26, 40, 40, 0.75);
+    border: 1px solid rgba(26, 40, 40, 0.75);
     cursor:pointer;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
      -webkit-transition: .5s; 
@@ -351,8 +351,8 @@ a:hover {
     
 }
 .single-contact-btn:hover{
-    background: #9f00ff;
-    border: 1px solid #9f00ff;
+    background: rgba(26, 40, 40, 0.75);
+    border: 1px solid rgba(26, 40, 40, 0.75);
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
 }
 
