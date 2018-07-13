@@ -229,6 +229,11 @@ a:hover {
 }
 
 /* ---- .item ---- */
+.item {
+    width: 350px;
+    height: 350px;
+}
+
 .isotope:after {
     content: '';
     display: block;
