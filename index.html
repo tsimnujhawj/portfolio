@@ -12,6 +12,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 
+    <!-- Hamburger Buttons -->
+    <link href="assets/css/hamburgers.css" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
 
@@ -42,24 +45,30 @@
         </div>
 
         <div class="just-r">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="ham-btn">
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" id="ham-btn">
                 <i class="fas fa-bars"></i>
-        </button>
+        </button> -->
+        <button class="hamburger hamburger--collapse navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button> 
+
         </div>
 
         <div class="collapse navbar-collapse just-r" id="navbarNav">
             <ul class="nav navbar-nav" id="nav-group">
                 <li class="nav-item">
-                  <a class="nav-link hvr-underline-reveal scroll" href="#home">home</a>
+                  <a class="nav-link hvr-underline-reveal scroll" data-toggle="collapse" data-target=".navbar-collapse.show" href="#home">home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link hvr-underline-reveal scroll" href="#about">about</a>
+                  <a class="nav-link hvr-underline-reveal scroll" data-toggle="collapse" data-target=".navbar-collapse.show" href="#about">about</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link hvr-underline-reveal scroll" href="#portfolio">portfolio</a>
+                  <a class="nav-link hvr-underline-reveal scroll" data-toggle="collapse" data-target=".navbar-collapse.show" href="#portfolio">portfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link hvr-underline-reveal scroll" href="#contact">contact</a>
+                  <a class="nav-link hvr-underline-reveal scroll" data-toggle="collapse" data-target=".navbar-collapse.show" href="#contact">contact</a>
                 </li>
             </ul>
         </div>

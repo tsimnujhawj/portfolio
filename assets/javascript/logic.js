@@ -81,4 +81,14 @@ const msgRef = firebase.database();
       })
   }
 
+  let $hamburger = $(".hamburger");
+  $hamburger.on("click", function(e) {
+    $hamburger.toggleClass("is-active");
+    // If link clicked then remove X
+    $(".nav-link").on("click", function(e) {
+      $hamburger.removeClass("is-active");
+    })
+    
+  });
+
 }); // DOCUMENT READY CLOSING
